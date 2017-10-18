@@ -1,0 +1,43 @@
+//Honor Pledge: I pledge that I have neither
+//given nor received any undue help on this assignment.
+//
+//strangni
+//
+//CS 240 - Assignment 3 - Roster Generator
+//Created by: Nicholas Strange
+
+Goals: 
+		- Create a Player class.
+		- Allow user to create and view a roster of instances of Player class.
+		
+Input:
+		- First name, last name, and jersey number from the user
+		- Menu selection (create Player, view roster, or exit) from the user
+		
+Output:
+		- List of all Players created by user 
+		
+Requirements:
+		- Player class must have first name, last name, and jersey number attributes.
+		- Player roster must be stored in array on heap; dynamic memory allocation must be managed.
+		- Maximum of 11 Players
+		- Program should check for duplicated player names and jersey numbers.
+		- User must be presented with a menu (create Player, view roster, or exit); program must collect user input and function accordingly.
+		- Program must loop until either 11 Players have been entered or the user selects the exit option from the menu.
+		- If 11 Players are created, program should immediately print out roster and terminate.
+		- Class definition and implementation must be in separate files.
+		
+Step-by-step Details:
+		1.) Create Player class
+				- specify first name, last name, and jersey number attributes
+				- define constructors, including one that sets attributes
+				- define methods that print and return Player attributes
+				
+		2. Define Player array
+		3. Loop the following until either 11 Players have been created or the user selects option to exit:
+			4. Print menu options to console and collect user response
+			5. If user chooses to create a Player, collect first name, last name, and player number from user.
+			6. Construct Player using the user's input and store in Player array.
+			7. If user chooses to view roster, use a loop to call the Player class's print method for each Player in array.
+		8. Define condition to print entire roster if 11 Players were created.
+		9. Use looping mechanism to check for duplicate player names and jersey numbers.
